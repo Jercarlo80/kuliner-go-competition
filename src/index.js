@@ -6,11 +6,11 @@ import './index.css'
 import App from './App';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root')) 
-root.render( 
-  <Router>  
-      <Routes>
-        <Route path="/App" element={<App/>} />
-      </Routes>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <Router>
+    <Routes>
+      <Route path='/' element={<App/>}/>
+    </Routes>
   </Router>
 );
