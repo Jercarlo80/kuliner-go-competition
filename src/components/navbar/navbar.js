@@ -69,7 +69,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to='/Masuk' className="">
+                            <Link to='/Daftar' className="">
                                 <button className="bg-[#0190ff] text-white font-bold py-2 px-4 rounded m-3">
                                     Daftar
                                 </button>
@@ -94,10 +94,10 @@ const Navbar = () => {
                             <Link className="border-b border-b-[#0190ff] text-black" to="/Popular">Popular</Link>
                         </li>
                         <div className='flex flex-col w-96'>
-                            <Link to='/Login'>
+                            <Link to='/Masuk'>
                                 <button className='font-bold my-6 py-3 px-4 border bg-[#0190ff] text-white rounded-[10px] cursor-pointer'>Masuk</button>
                             </Link>
-                            <Link to='/Register'>
+                            <Link to='/Daftar'>
                                 <button className='font-bold py-3 px-4 border bg-[#0190ff] text-white rounded-[10px] cursor-pointer '>Daftar</button>
                             </Link>
                         </div>

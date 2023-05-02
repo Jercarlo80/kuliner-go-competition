@@ -92,7 +92,7 @@ const Register = () => {
                     </label>
                   </div>
                   <div className="relative bottom-4">
-                  <Link to='/Login'>
+                  <Link to='/Masuk'>
                   <Button title="Daftar" />
                   </Link>
                   </div>
