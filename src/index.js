@@ -13,8 +13,8 @@ root.render(
   <Router>
     <Routes>
       <Route path='/' element={<App/>}/>
-      <Route path='/Login' element={<Login/>}/>
-      <Route path='/Register' element={<Register/>}/>
+      <Route path='/Masuk' element={<Login/>}/>
+      <Route path='/Daftar' element={<Register/>}/>
       <Route path="/Home" element={<HomePage/>} />
     </Routes>
   </Router>

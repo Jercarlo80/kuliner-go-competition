@@ -85,7 +85,7 @@ const Login = () => {
                     serta Kebijakan Privasi Kuliner.go
                   </label>
                 </div>
-                <Link to='/Register'>
+                <Link to='/Daftar'>
                   <Button title="Login"/>
                 </Link>
               </form>
