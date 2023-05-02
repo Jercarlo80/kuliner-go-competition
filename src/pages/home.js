@@ -9,6 +9,7 @@ import Daerah from "../components/daerah";
 import Ilustrator from '../assets/ilustrator.png';
 import Bakso from '../assets/bakso.png';
 import Count from "../components/count";
+import Artikel from "../components/artikel";
 
 const Home = () => {
     return(
@@ -58,10 +59,19 @@ const Home = () => {
                 </h3>
             </div>
             <Count/>
-            <div className="py-[20px]"></div>
-            <div>
-                
-            </div>
+            
+            <h1 className="ml-[60px] mt-[130px] text-[32px]">Artikel dan Festival</h1> 
+            <h3 className="ml-[60px] w-[1465px] h-[36px] mt-[8px] text-[20px] font-extralight">
+                Dapatkan informasi berita dan event terbaru seputar proses digitalisasi bisnis kuliner Indonesia.
+                <span className="text-end relative bottom-[30px]">
+                    <Link to='Artikel-Page'>
+                        <h3 className="text-[#0190ff] underline cursor-pointer hover:text-gray-500">
+                            Lihat semua
+                        </h3>
+                    </Link>
+                </span>
+            </h3> 
+            <Artikel className='absolute left-[30px]'/>
         </div>
     )
 }

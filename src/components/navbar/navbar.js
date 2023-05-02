@@ -42,8 +42,8 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to='/Favorite' className="py-7 px-[32px] inline-block">
-                                Favorite
+                            <Link to='/Artikel-Page' className="py-7 px-[32px] inline-block">
+                                Artikel
                             </Link>
                         </li>
                         <li>
@@ -57,7 +57,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                     </div>
-                    <li className='absolute right-[300px] top-[24px] '>
+                    <li className='absolute right-[320px] top-[25px] '>
                         <Search placeholder='Temukan restoran mu' />
                     </li>
                     <div className="absolute left-[1020px] bottom-[-10px] md:flex hidden mt-[12px] ml-[220px]">

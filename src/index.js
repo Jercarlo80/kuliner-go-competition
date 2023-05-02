@@ -7,6 +7,7 @@ import App from './App';
 import Login from './pages/login/login';
 import Register from './pages/register/register';
 import HomePage from './routes/homePage';
+import ArtikelPage from './routes/artikelPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <Route path='/Masuk' element={<Login/>}/>
       <Route path='/Daftar' element={<Register/>}/>
       <Route path="/Home" element={<HomePage/>} />
+      <Route path="/Artikel-Page" element={<ArtikelPage/>} />
     </Routes>
   </Router>
 );
