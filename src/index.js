@@ -8,6 +8,9 @@ import Login from './pages/login/login';
 import Register from './pages/register/register';
 import HomePage from './routes/homePage';
 import ArtikelPage from './routes/artikelPage';
+import Terdekatku from './routes/terdekatkuPage';
+import Popular from './routes/popularPage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +21,8 @@ root.render(
       <Route path='/Daftar' element={<Register/>}/>
       <Route path="/Home" element={<HomePage/>} />
       <Route path="/Artikel-Page" element={<ArtikelPage/>} />
+      <Route path="/Terdekatku" element={<Terdekatku/>} />
+      <Route path="/Popular" element={<Popular/>} />
     </Routes>
   </Router>
 );
