@@ -20,3 +20,10 @@ body {
     @apply py-3 px-4 border bg-[#0190ff] text-white rounded-[10px] cursor-pointer font-bold w-[88px] h-[36px] border-none
   } */
 }
+
+body {
+    background-color: white;
+    font-family: 'Poppins', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  }
