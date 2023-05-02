@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300&display=swap');
+body {
+  background-color: white;
+  font-family: 'Poppins', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+@layer base {
+  li {
+    @apply p-4 cursor-pointer
+  }
+  h5 {
+    @apply text-[#0190ff] cursor-pointer text-xl font-bold
+  }
+  /* button {
+    @apply py-3 px-4 border bg-[#0190ff] text-white rounded-[10px] cursor-pointer font-bold w-[88px] h-[36px] border-none
+  } */
+}
 
 body {
     background-color: white;
