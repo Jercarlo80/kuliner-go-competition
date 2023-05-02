@@ -59,6 +59,9 @@ const Home = () => {
             </div>
             <Count/>
             <div className="py-[20px]"></div>
+            <div>
+                
+            </div>
         </div>
     )
 }

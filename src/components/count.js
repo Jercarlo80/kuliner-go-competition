@@ -1,6 +1,6 @@
 import React from "react";
-import '../style.css'
 import {  useSpring, animated  } from 'react-spring';
+import '../css/style.css';
 
 function Number({n}) {
     const { number } = useSpring({

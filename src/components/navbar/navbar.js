@@ -1,7 +1,8 @@
 import React,  {useEffect, useState, useContext} from "react";
 import { Link } from "react-router-dom";
-import '../../style.css'
+import '../../css/style.css';
 import Logo from '../../assets/logo.png';
+import Search from "../search";
 
 const Navbar = () => {
     const [navbarColor, setNavbarColor] = useState("transparent");
@@ -33,28 +34,33 @@ const Navbar = () => {
                 <Link to='/'>
                     <img src={Logo} alt='kuliner-go-icon' className="w-[230px] h-[52px] md:cursor-pointer" />
                 </Link>
-                <ul className="navlink hidden md:flex justify-center text-center absolute left-[520px] top-[20px]">
-                    <li>
-                        <Link to='/Home' className="py-7 px-[32px] inline-block ">
-                            Home
-                        </Link>
+                <ul>
+                    <div className="navlink hidden md:flex justify-center text-center absolute left-[370px] bottom-[-20px]">
+                        <li>
+                            <Link to='/Home' className="py-7 px-[32px] inline-block ">
+                                Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/Favorite' className="py-7 px-[32px] inline-block">
+                                Favorite
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/Terdekatku' className="py-7 px-[32px] inline-block">
+                                Terdekatku
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/Popular' className="py-7 px-[32px] inline-block">
+                                Popular
+                            </Link>
+                        </li>
+                    </div>
+                    <li className='absolute right-[300px] top-[24px] '>
+                        <Search placeholder='Temukan restoran mu' />
                     </li>
-                    <li>
-                        <Link to='/Favorite' className="py-7 px-[32px] inline-block">
-                            Favorite
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to='/Terdekatku' className="py-7 px-[32px] inline-block">
-                            Terdekatku
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to='/Popular' className="py-7 px-[32px] inline-block">
-                            Popular
-                        </Link>
-                    </li>
-                    <div className="md:flex hidden mt-[12px] ml-[220px]">
+                    <div className="absolute left-[1020px] bottom-[-10px] md:flex hidden mt-[12px] ml-[220px]">
                         <li>
                             <Link to='/Masuk' className="">
                                 <button className="bg-white text-[#0190ff] font-bold py-2 px-4 rounded m-3">
